@@ -2,8 +2,8 @@ $(document).ready(function(){
 
    //type
    var typed = new Typed('.code', {
-      strings: ["&#123; Hello, I'm &#125;", "&#123; WEBDESIGNER&#183;CODER &#125;"],
-      typeSpeed: 80,
+      strings: ["&#123; Webdesign&#183;Coding &#125;", "&#123; Portfolio &#125;"],
+      typeSpeed: 70,
       smartBackspace: true,
       backSpeed: 50,
     });

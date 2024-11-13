@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+body {font-family: "Josefin Sans","Noto Sans KR", sans-serif;font-size: 16px;}
+.container {padding: 0 100px;}
+
+header {
+   position: fixed;
+   top: 0; 
+   width: 100%;
+   padding: 10px 0;
+   border-bottom: 1px solid #aaa;
+   z-index: 10;
+}
+header .hd_box {display: flex;justify-content: space-between;align-items: center;}
+header .hd_box h1 {}
+header .hd_box h1 a {
+   display: block; 
+   width: 143px;
+   height: 45px;
+   background: url(../diamante/logo.png);
+}
+header .top_menu {display: flex;}
+header .top_menu li {color: #eee;margin-right: 50px;}
+header .top_menu li:last-child {margin-right: 0;}
+
+header.fixed {background: rgba(255, 255, 255, 0.9);transition: 0.5s;border: none;box-shadow: 0px 2px 2px rgba(0,0,0,0.1);}
+header.fixed .hd_box h1 a {background: url(../diamante/logo_bk.png);}
+header.fixed .top_menu li {color: #333;}
+
+
+.visual_slide {height: 100vh;position: relative;}
+.visual_slide .visual_video {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+}
+.visual_slide .visual_video video {width: 100%;object-fit: cover;}
+.visual_slide .container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+   padding: 0;
+   background: rgba(0, 0, 0, 0.3);
+}
+.visual_slide .container p {font-size: 80px;text-align: center;color: #eee;font-weight: 300;line-height: 1.5;}
+.visual_slide .container strong {color: #cb4c1f;font-weight: 300;}
+
+
+.intrd {padding: 50px 0;background: #eee;}
+.intrd .container {display: flex;justify-content: space-between;align-items: center;flex-wrap: nowrap;}
+.intrd .txt {}
+.intrd .txt ul {display: flex;flex-wrap: wrap;}
+.intrd .txt ul li {flex: 0 0 33%;margin-bottom: 50px;}
+.intrd .txt ul li:nth-child(3),
+.intrd .txt ul li:nth-child(4) {margin-bottom: 0;}
+.intrd .txt ul li strong {color: #cb4c1f;font-size: 20px;font-weight: 300;}
+.intrd .txt ul li span {font-size: 20px;display: block;margin: 15px 0;}
+.intrd .txt ul li p {font-size: 14px;line-height: 1.2;}
+.intrd .img img {width: 500px;}
+
+.brand_int {background: url(../diamante/wine_bg.jpg);height: 600px;background-size: cover;}
+.brand_int .container {position: relative;height: 100%;}
+.brand_int .brd_box {position: absolute;right: 15%;top: 50%;text-align: center;transform: translate(-50%, -50%);}
+.brand_int .brd_box img {height: 60px;margin-bottom: 50px;}
+.brand_int .brd_box p {color: #eee;text-align: center;line-height: 1.6;}
+.brand_int .img {}
+
+.product_slider {margin: 100px 0;}
+.product_slider .swiper {}
+.product_slider .swiper .swiper-slide {text-align: center;}
+.product_slider .swiper .swiper-slide img {object-fit: contain;width: 100%;}
+.product_slider .swiper .swiper-slide p {margin: 15px 0 0 0;}
+.product_slider .swiper .swiper-button-prev,
+.product_slider .swiper .swiper-button-next {display: block;color: #333;}
+.product_slider .swiper .swiper-button-next:after, 
+.product_slider .swiper .swiper-button-prev:after {font-size: 30px;}
+
+.brand {background: url(../diamante/brand_bg.jpg);background-size: cover;padding: 200px 0;text-align: center;}
+.brand strong {color: #cb4c1f;font-size: 26px;margin-bottom: 50px;display: block;text-transform: uppercase;}
+.brand p {color: #ddd;line-height: 2;}
+
+.more_diamante {text-align: center;padding: 100px 0;}
+.more_diamante h3 {font-size: 26px;margin-bottom: 80px;}
+.more_diamante ul {display: flex;align-items: center;justify-content: space-around;margin-bottom: 70px;}
+.more_diamante ul li {border-right: 1px solid #aaa;width: 25%;}
+.more_diamante ul li:last-child {border-right: none;}
+.more_diamante ul li strong {color: #cb4c1f;display: block;margin-bottom: 15px;}
+.more_diamante ul li span {}
+.more_diamante button {}
+.more_diamante button a {
+   border: 1px solid #cb4c1f;
+   display: block;
+   border-radius: 10px;
+   color: #cb4c1f;
+   padding: 15px 50px;
+   box-shadow: 0px 0px 5px #cb4c1f;
+}
+.more_diamante button a:hover {
+   background: #cb4c1f;
+   color: #fff;
+   transition: 0.5s;
+}
+
+footer {text-align: center;background: #333;font-size: 14px;padding: 80px 0;}
+footer h2 {margin-bottom: 30px;}
+footer h2 img {height: 50px;}
+footer .adress {line-height: 1.5;margin-bottom: 30px;color: #eee;}
+footer .copyright {color: #eee;}
