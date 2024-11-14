@@ -9,14 +9,15 @@ $(document).ready(function(){
     });
 
     //aos
-    AOS.init({
+   AOS.init({
       duration: 1000,
-    });
+   });
     
 
-    //scroll event
-   //  $(window).on('scroll', function(){
-   //    $(window).scrollTop();
-   //       $("#scroll_fd").addClass("show");
-   //  })
+   lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'fitImagesInViewport' : false,
+      'maxWidth': 600,
+   })
 })
