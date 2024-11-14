@@ -111,3 +111,35 @@ footer h2 {margin-bottom: 30px;}
 footer h2 img {height: 50px;}
 footer .adress {line-height: 1.5;margin-bottom: 30px;color: #eee;}
 footer .copyright {color: #eee;}
+
+
+/* pc */
+@media screen and (min-width: 1194px) {
+   .mo {display: none;}
+}
+
+/* Tablet */
+@media screen and (max-width: 1193px) {}
+
+/* mobile */
+@media screen and (max-width: 700px) {
+   .mo {display: block;}
+   .container {padding: 0 5%;}
+
+   header .top_menu {display: none;}
+
+   .visual_slide {height: 80vh;}
+   .visual_slide .container p {font-size: 40px;}
+   .visual_slide .visual_video video {height: 100%;}
+
+   .intrd .container {display: block;}
+   .intrd .txt {background: url(../diamante/brand_glass.jpg) right -50% bottom 0 / contain no-repeat;padding-bottom: 50px;}
+   .intrd .txt ul {display: block;}
+   .intrd .txt ul li {margin-bottom: 30px;}
+   .intrd .txt ul li:nth-child(3),
+   .intrd .txt ul li:nth-child(4) {margin-bottom: 30px;}
+   .intrd .txt ul li strong {}
+   .intrd .txt ul li span {}
+   .intrd .txt ul li p {}
+   .intrd .img img {display: none;}
+}
