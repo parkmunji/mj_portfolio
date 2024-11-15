@@ -54,8 +54,8 @@ header.fixed .top_menu li {color: #333;}
 .intrd {padding: 50px 0;background: #eee;}
 .intrd .container {display: flex;justify-content: space-between;align-items: center;flex-wrap: nowrap;}
 .intrd .txt {background: url(../diamante/glass_bg.png) bottom 0 right 10% / contain no-repeat;width: 100%;padding: 100px 0;}
-.intrd .txt ul {display: flex;flex-wrap: wrap;max-width: 80%;}
-.intrd .txt ul li {flex: 0 0 33%;margin-bottom: 50px;max-width: 250px;}
+.intrd .txt ul {display: flex;flex-wrap: wrap;max-width: 60%;}
+.intrd .txt ul li {flex: 0 0 33%;margin-bottom: 50px;}
 .intrd .txt ul li strong {color: #cb4c1f;font-size: 20px;font-weight: 300;}
 .intrd .txt ul li span {font-size: 20px;display: block;margin: 15px 0;}
 .intrd .txt ul li p {font-size: 14px;line-height: 1.2;}
