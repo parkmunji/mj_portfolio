@@ -37,7 +37,7 @@ header.fixed .top_menu li {color: #333;}
    bottom: 0;
    z-index: -1;
 }
-.visual_slide .visual_video video {width: 100%;object-fit: cover;}
+.visual_slide .visual_video video {width: 100%;object-fit: cover;pointer-events: none;}
 .visual_slide .container {
    display: flex;
    align-items: center;
