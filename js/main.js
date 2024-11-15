@@ -17,7 +17,7 @@ $(document).ready(function(){
    lightbox.option({
       'resizeDuration': 200,
       'wrapAround': true,
-      'fitImagesInViewport' : false,
+      'fitImagesInViewport' : true,
       'maxWidth': 600,
    })
 })

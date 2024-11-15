@@ -155,7 +155,7 @@ footer .copyright {color: #eee;}
       padding-bottom: 120px;
       padding: 0;
    }
-   .intrd .txt ul {justify-content: space-between;}
+   .intrd .txt ul {justify-content: space-between;max-width: 100%;}
    .intrd .txt ul li {margin-bottom: 30px;flex: 0 0 45%;}
    .intrd .txt ul li:nth-child(3),
    .intrd .txt ul li:nth-child(4) {margin-bottom: 30px;}
